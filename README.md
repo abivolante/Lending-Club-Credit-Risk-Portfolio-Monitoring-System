@@ -26,8 +26,24 @@ Source: https://www.kaggle.com/datasets/adarshsng/lending-club-loan-data-csv
 
 ## Phase 1: Portfolio Overview
 
-### Key Findings:
-- The sample of 100,000 loan accounts has approximately £1.59 billion in funded exposure.
-- Approximately 83% of funded exposure is concentrated within Grades A-C.
-- Current loans account for approximately 97.1% of total funded exposure.
-- Delinquent and charged-off loans represent less than 1% of portfolio exposure.
+This phase assesses the total portfolio size and capital distribution across borrower segments and loan statuses.
+
+### Findings:
+- The sample of 100,000 loan accounts represents approximately **£1.59 billion** in funded exposure.
+- Approximately **83% of funded exposure is concentrated in Grades A–C**.
+- **Current loans account for ~97.1% of total funded exposure**.
+- Delinquent and charged-off loans represent **less than 1% of portfolio exposure**.
+
+
+## Phase 2: Credit Risk Performance
+
+This phase evaluates borrower repayment performance and assesses the effectiveness of the credit grading system in risk levels.
+
+A loan is classified as defaulted if its status is either 'Charged Off' or 'Default'.
+
+### Findings:
+- The observed portfolio default rate is 0.019% (19 defaulted loans out of 100,000). (The extremely low observed default rate is likely influenced by sampling bias and under-representation of defaulted loans in the dataset. Result should be interpreted as an insight rather than a true estimate.)
+- Credit grade is the strongest predictor of default risk, with Grade G showing the highest default rate.
+- Higher credit grades (A–C)  exhibit very low observed default rates.
+- Loan purpose shows limited variation in default risk hence is a weak predictive power.
+- Home ownership has a mild relationship with default risk, with renters showing slightly higher observed default rates than homeowners.
