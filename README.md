@@ -43,7 +43,7 @@ A loan is classified as defaulted if its status is either 'Charged Off' or 'Defa
 
 ### Findings:
 - The observed portfolio default rate is 0.019% (19 defaulted loans out of 100,000). (The extremely low observed default rate is likely influenced by sampling bias and under-representation of defaulted loans in the dataset. Result should be interpreted as an insight rather than a true estimate.)
-- Credit grade is the strongest predictor of default risk, with Grade G showing the highest default rate.
+- Credit grade is the strongest predictor of default risk, with Grade G showing the highest default rate. The low observed default rate by other higher risk grades is also likely influence by sampling bias. 
 - Higher credit grades (A–C)  exhibit very low observed default rates.
-- Loan purpose shows limited variation in default risk hence is a weak predictive power.
-- Home ownership has a mild relationship with default risk, with renters showing slightly higher observed default rates than homeowners.
+- Loan purpose shows limited variation in default risk hence is not a strong predictive variable
+- Home ownership has some relationship with default risk, with homeownes showing slightly higher observed default rates than renters.
