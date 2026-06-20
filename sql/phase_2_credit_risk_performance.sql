@@ -7,7 +7,7 @@
 -- 
 -- =====================================================
 
---Portfolio-wide default rate
+--Overall default rate
 WITH total_loans AS (
   SELECT COUNT(*) AS total_loans
   FROM `lending-club-499707.lending_club.loan`
