@@ -24,15 +24,16 @@ Due to Google BigQuery storage and processing constraints, a sampled subset of t
 
 Source: https://www.kaggle.com/datasets/adarshsng/lending-club-loan-data-csv
 
+
 ## Phase 1: Portfolio Overview
 
 This phase assesses the total portfolio size and capital distribution across borrower segments and loan statuses.
 
 ### Findings:
-- The sample of 100,000 loan accounts represents approximately **£1.59 billion** in funded exposure.
-- Approximately **83% of funded exposure is concentrated in Grades A–C**.
-- **Current loans account for ~97.1% of total funded exposure**.
-- Delinquent and charged-off loans represent **less than 1% of portfolio exposure**.
+- The sample of 100,000 loan accounts represents approximately £1.59 billion in funded exposure.
+- Approximately 83% of funded exposure is concentrated in Grades A–C.
+- Current loans account for ~97.1% of total funded exposure.
+- Delinquent and charged-off loans represent less than 1% of portfolio exposure.
 
 
 ## Phase 2: Credit Risk Performance
@@ -47,3 +48,14 @@ A loan is classified as defaulted if its status is either 'Charged Off' or 'Defa
 - Higher credit grades (A–C)  exhibit very low observed default rates.
 - Loan purpose shows limited variation in default risk hence is not a strong predictive variable
 - Home ownership has some relationship with default risk, with homeownes showing slightly higher observed default rates than renters.
+
+
+## Phase 3: Credit Risk Performance
+
+This phase identifies where financial impact is concentrated beyond default rates.
+
+### Findings:
+- The total charged off exposure amounted to approximately £300,000.
+- Grades A to C account for the highest number of charged-off exposure. This could be due to the high concentration of loans allocated to borrowers of higher grades. 
+- Debt consolidation, home improvement, and credit card loans account for the largest share of charged-off exposure. Higher losses in these categories are likely driven by their larger share of overall lending activity.
+
