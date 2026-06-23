@@ -46,15 +46,16 @@ Due to Google BigQuery storage and processing constraints, a sampled subset of t
 
 Source: https://www.kaggle.com/datasets/adarshsng/lending-club-loan-data-csv
 
+## Findings
 
-## Section 1: Portfolio Overview Findings:
+### Section 1: Portfolio Overview
 - The sample of 100,000 loan accounts represents approximately £1.59 billion in funded exposure.
 - Approximately 83% of funded exposure is concentrated in Grades A–C.
 - Current loans account for ~97.1% of total funded exposure.
 - Delinquent and charged-off loans represent less than 1% of portfolio exposure.
 
 
-## Section 2: Credit Risk Performance Findings:
+### Section 2: Credit Risk Performance
 
 - The observed portfolio default rate is 0.019% (19 defaulted loans out of 100,000). (The extremely low observed default rate is likely influenced by sampling bias and under-representation of defaulted loans in the dataset. Result should be interpreted as an insight rather than a true estimate.)
 - Credit grade is the strongest predictor of default risk, with Grade G showing the highest default rate. The low observed default rate by other higher risk grades is also likely influence by sampling bias. 
@@ -63,12 +64,12 @@ Source: https://www.kaggle.com/datasets/adarshsng/lending-club-loan-data-csv
 - Home ownership has some relationship with default risk, with homeownes showing slightly higher observed default rates than renters.
 
 
-## Section 3: Credit Risk Performance Findings:
+### Section 3: Credit Risk Performance
 - The total charged off exposure amounted to approximately £300,000.
 - Grades A to C account for the highest number of charged-off exposure. This could be due to the high concentration of loans allocated to borrowers of higher grades. 
 - Debt consolidation, home improvement, and credit card loans account for the largest share of charged-off exposure. Higher losses in these categories are likely driven by their larger share of overall lending activity.
 
-## Section 4: Delinquency and Exposure at Default Findings:
+### Section 4: Delinquency and Exposure at Default
 - A total of 441 loans were identified as delinquent within the portfolio.
 - Total Exposure at Default (EAD) across delinquent accounts was approximately £6.4 million
 - EAD was concentrated within Grades B-D, indicating that these segments contribute the largest share of potential future losses.
