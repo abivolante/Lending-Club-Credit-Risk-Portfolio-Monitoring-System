@@ -1,5 +1,5 @@
 -- =====================================================
--- PHASE 4: DELINQUENCY & EXPOSURE AT DEFAULT (EAD)
+-- Section 4: DELINQUENCY & EXPOSURE AT DEFAULT (EAD)
 -- =====================================================
 --
 -- Objective:
